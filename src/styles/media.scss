@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+    .colxl5 {
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 20%!important;
+        max-width: 20%!important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .media-img {
+        height: 400px;
+    }
+
+    .main-menu .navigation li {
+        margin-right: 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .serive-img {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-slider-slick {
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "mynet",
+  "version": "1.0",
+  "private": true,
+  "proxy": "https://wpadmin.mynetsolutions.net/",
+  "homepage": "https://mynetsolutions.net",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.11.1",
+    "@loadable/component": "^5.14.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "apexcharts": "^3.24.0",
+    "axios": "^0.21.1",
+    "google-map-react": "^2.1.9",
+    "html-react-parser": "^1.2.4",
+    "i18next": "^19.8.7",
+    "i18next-xhr-backend": "^3.2.2",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-accessible-accordion": "^3.3.3",
+    "react-apexcharts": "^1.3.7",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.8.5",
+    "react-iframe": "^1.8.0",
+    "react-image-video-lightbox": "^2.0.3",
+    "react-loading-skeleton": "^2.1.1",
+    "react-moment": "^1.1.1",
+    "react-pagination-js": "^2.0.0",
+    "react-rev-slider": "^1.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-share": "^4.3.1",
+    "react-slick": "^0.28.0",
+    "react-spring": "^8.0.27",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.3",
+    "workbox-broadcast-update": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-core": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-google-analytics": "^5.1.3",
+    "workbox-navigation-preload": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-range-requests": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3",
+    "workbox-streams": "^5.1.3",
+    "wowjs": "^1.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.23.0",
+    "sass": "^1.32.6"
+  }
+}
